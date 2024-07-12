@@ -1,0 +1,303 @@
+body {
+  background-color: grey;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Header */
+header {
+  background-color: white;
+  padding: 20px 0;
+}
+
+header .logo {
+  float: left;
+  margin-right: 10px;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  line-height: 40px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 42px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a.green {
+  color: green;
+}
+
+/* Banner Section */
+.banner {
+  background-image: url("banner.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.banner h2 {
+  font-size: 36px;
+  color: white;
+  margin: 0;
+}
+
+.banner .dots,
+.banner .checkmark {
+  margin: 20px 0;
+}
+
+.banner p {
+  font-size: 18px;
+  color: white;
+}
+
+/* Search Section */
+.search {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.search-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+}
+
+.search-card .left {
+  flex: 1;
+}
+
+.search-card .left input,
+.search-card .left .date input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: lighter;
+}
+
+.search-card .dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-card .right {
+  flex: 1;
+}
+
+.search-card .right .rooms,
+.search-card .right .adults,
+.search-card .right .children {
+  margin-bottom: 20px;
+}
+
+.search-card .room-control,
+.search-card .adult-control,
+.search-card .children-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-card .check-availability {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Priority Section */
+.priority {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.priority h2 {
+  margin: 0 0 20px 0;
+}
+
+.priority p {
+  margin: 0 0 20px 0;
+}
+
+.priority .continue-explore {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Places Section */
+.places {
+  padding: 40px 0;
+}
+
+.places .place {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.places .place img {
+  flex: 1;
+}
+
+.places .place-card {
+  flex: 1;
+  color: white;
+  padding: 20px;
+}
+
+.places .place-card.green {
+  background-color: green;
+}
+
+.places .place-card.maroon {
+  background-color: maroon;
+}
+
+.places .place-card h3,
+.places .place-card p,
+.places .place-card button {
+  margin: 10px 0;
+}
+
+.places .place-card button {
+  background-color: white;
+  color: inherit;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Continents Section */
+.continents {
+  background-color: green;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.continents .continent {
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Hotels Section */
+.hotels {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.hotels .hotel-card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.hotels .hotel-card img {
+  flex: 1;
+}
+
+.hotels .details {
+  flex: 2;
+  padding: 20px;
+}
+
+.hotels .details .location {
+  color: red;
+}
+
+.hotels .price {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotels .price span {
+  font-size: 24px;
+}
+
+.hotels .price button {
+  background-color: white;
+  color: green;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.hotels .show-more {
+  display: block;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+}
+
+/* Contact Section */
+.contact {
+  background-image: url("google-map.png");
+  background-size: cover;
+  padding: 40px 0;
+  text-align: right;
+}
+
+.contact form {
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.contact form button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+}
